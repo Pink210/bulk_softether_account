@@ -28,7 +28,7 @@ ex_date = date + datetime.timedelta(days= int(many_days))
 print(f'ExpireTime is {ex_date.date()}')
 
 apisite = f"https://{server}:5555/api/"
-password = "Abbas1368Abbas1369"
+password = "yourpassword"
 
 username = ""
 def SendCommand(gateway, password, method, params):
